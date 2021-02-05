@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import MultipleCustomHooks from './components/MutipleCustomHooks.js/MultipleCustomHooks';
+// import FormWithCustomHook from './components/useEffect/FormWithCustomHook';
+// import HookApp from './HookApp'
+// import Counter from './components/useState/Counter'
+// import CounterCustomHook from './components/useState/CounterCustomHook';
+// import SimpleForm from './components/useEffect/SimpleForm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MultipleCustomHooks />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
