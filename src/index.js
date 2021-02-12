@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import ToDo from './components/useReducer/ToDo';
 // import UseCallback from './components/useCallback/UseCallback';
 // import Memorize from './components/useMemo/Memorize';
 //import Memorize from './components/memo/Memorize';
@@ -16,7 +17,7 @@ import { Padre } from './components/07-tarea-memo/Padre';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Padre />
+    <ToDo />
   </React.StrictMode>,
   document.getElementById('root')
 );

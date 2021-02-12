@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.divInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.noTask {
+    color: #636464
+}
+
+.todoDesc{
+    margin: 0px;
+}
+
+.completado {
+    text-decoration: line-through;
+}
